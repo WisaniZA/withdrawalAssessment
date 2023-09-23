@@ -1,6 +1,6 @@
 package com.assessment.wisanimabasa.models.dto;
 
-import com.assessment.wisanimabasa.entity.Investor;
+import com.assessment.wisanimabasa.entities.Investor;
 import com.assessment.wisanimabasa.enums.ProductType;
 
 import java.math.BigDecimal;

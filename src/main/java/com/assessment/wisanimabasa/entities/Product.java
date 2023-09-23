@@ -1,4 +1,4 @@
-package com.assessment.wisanimabasa.entity;
+package com.assessment.wisanimabasa.entities;
 
 import com.assessment.wisanimabasa.enums.ProductType;
 import com.assessment.wisanimabasa.models.dto.ProductDTO;

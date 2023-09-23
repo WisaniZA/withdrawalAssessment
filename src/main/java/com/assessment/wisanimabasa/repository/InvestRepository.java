@@ -1,6 +1,6 @@
 package com.assessment.wisanimabasa.repository;
 
-import com.assessment.wisanimabasa.entity.Investor;
+import com.assessment.wisanimabasa.entities.Investor;
 import com.assessment.wisanimabasa.models.id.InvestorId;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

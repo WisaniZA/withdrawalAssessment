@@ -2,7 +2,7 @@ package com.assessment.wisanimabasa.models.dto;
 
 
 
-import com.assessment.wisanimabasa.entity.Product;
+import com.assessment.wisanimabasa.entities.Product;
 
 import java.util.List;
 import java.util.UUID;

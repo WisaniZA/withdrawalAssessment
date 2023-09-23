@@ -1,7 +1,7 @@
 package com.assessment.wisanimabasa.service.implementation;
 
-import com.assessment.wisanimabasa.entity.Investor;
-import com.assessment.wisanimabasa.entity.Product;
+import com.assessment.wisanimabasa.entities.Investor;
+import com.assessment.wisanimabasa.entities.Product;
 import com.assessment.wisanimabasa.exceptions.InvestorNotFoundException;
 import com.assessment.wisanimabasa.models.dto.InvestorDTO;
 import com.assessment.wisanimabasa.models.dto.ProductDTO;

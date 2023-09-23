@@ -1,7 +1,7 @@
 package com.assessment.wisanimabasa.service.implementation;
 
-import com.assessment.wisanimabasa.entity.Product;
-import com.assessment.wisanimabasa.entity.Withdrawal;
+import com.assessment.wisanimabasa.entities.Product;
+import com.assessment.wisanimabasa.entities.Withdrawal;
 import com.assessment.wisanimabasa.exceptions.ProductNotFoundException;
 import com.assessment.wisanimabasa.models.dto.WithdrawalDTO;
 import com.assessment.wisanimabasa.repository.ProductRepository;

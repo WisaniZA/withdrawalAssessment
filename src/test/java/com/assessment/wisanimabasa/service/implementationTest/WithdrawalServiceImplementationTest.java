@@ -1,8 +1,8 @@
 package com.assessment.wisanimabasa.service.implementationTest;
 
-import com.assessment.wisanimabasa.entity.Investor;
-import com.assessment.wisanimabasa.entity.Product;
-import com.assessment.wisanimabasa.entity.Withdrawal;
+import com.assessment.wisanimabasa.entities.Investor;
+import com.assessment.wisanimabasa.entities.Product;
+import com.assessment.wisanimabasa.entities.Withdrawal;
 import com.assessment.wisanimabasa.enums.ProductType;
 import com.assessment.wisanimabasa.models.dto.ProductDTO;
 import com.assessment.wisanimabasa.models.dto.WithdrawalDTO;

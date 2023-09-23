@@ -1,7 +1,7 @@
 package com.assessment.wisanimabasa.repository;
 
 
-import com.assessment.wisanimabasa.entity.Product;
+import com.assessment.wisanimabasa.entities.Product;
 import com.assessment.wisanimabasa.models.id.ProductId;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

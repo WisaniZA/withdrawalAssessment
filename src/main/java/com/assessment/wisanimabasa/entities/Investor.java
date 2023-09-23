@@ -1,4 +1,4 @@
-package com.assessment.wisanimabasa.entity;
+package com.assessment.wisanimabasa.entities;
 
 import com.assessment.wisanimabasa.models.dto.InvestorDTO;
 import com.assessment.wisanimabasa.models.id.InvestorId;

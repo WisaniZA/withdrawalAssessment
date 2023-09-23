@@ -1,9 +1,8 @@
 package com.assessment.wisanimabasa.controllerTest;
 
 import com.assessment.wisanimabasa.controller.rest.WithdrawalController;
-import com.assessment.wisanimabasa.entity.Product;
-import com.assessment.wisanimabasa.entity.Withdrawal;
-import com.assessment.wisanimabasa.models.dto.ProductDTO;
+import com.assessment.wisanimabasa.entities.Product;
+import com.assessment.wisanimabasa.entities.Withdrawal;
 import com.assessment.wisanimabasa.models.dto.WithdrawalDTO;
 import com.assessment.wisanimabasa.service.interfaces.WithdrawalService;
 import com.fasterxml.jackson.core.JsonProcessingException;

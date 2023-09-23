@@ -1,6 +1,6 @@
 package com.assessment.wisanimabasa.service.implementation;
 
-import com.assessment.wisanimabasa.entity.Product;
+import com.assessment.wisanimabasa.entities.Product;
 import com.assessment.wisanimabasa.models.dto.ProductDTO;
 import com.assessment.wisanimabasa.models.id.ProductId;
 import com.assessment.wisanimabasa.repository.ProductRepository;
