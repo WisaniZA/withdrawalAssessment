@@ -50,7 +50,7 @@ public class InvestorController {
      * @return the investor info
      */
     @GetMapping("/{investorId}")
-    @Operation(summary = "Get investor by id", description = "Get investor details by their unique investorId")
+    @Operation(summary = "Get investor by investorId", description = "Get investor details by their unique investorId")
     @ApiResponse(responseCode = "200", description = "Successful", content = @Content(schema =  @Schema(implementation = Investor.class)))
     @ApiResponse(responseCode = "404", description = "Investor not found.")
     @ResponseStatus(HttpStatus.OK)
