@@ -31,13 +31,13 @@ public class Product {
     @Column
     private String productName;
 
-    @Column(columnDefinition = "varchar(255)") // Specify the appropriate length
+    @Column(columnDefinition = "varchar(255)")
     private ProductType productType;
 
-    @Column(columnDefinition = "numeric(10, 2)") // Specify the appropriate precision and scale
+    @Column(columnDefinition = "numeric(10, 2)")
     private BigDecimal currentBalance;
 
-    @Column(columnDefinition = "numeric(10, 2)") // Specify the appropriate precision and scale
+    @Column(columnDefinition = "numeric(10, 2)")
     private BigDecimal withdrawalBalance;
 
     @Column(columnDefinition = "boolean")
