@@ -6,6 +6,8 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * The type Config api.
+ *  @author Wisani Mabasa
+ *   @Since 22-sep-2023
  */
 @Configuration
 public class ConfigApi {
