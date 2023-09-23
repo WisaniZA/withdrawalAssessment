@@ -47,7 +47,7 @@ public class WithdrawalController {
      */
     @PostMapping("/create")
     @Operation(summary = "Create withdrawal", description = "Create a new withdrawal")
-    @ApiResponse(responseCode = "200", description = "Successful", content = @Content(schema =  @Schema(implementation = String.class)))
+    @ApiResponse(responseCode = "201", description = "Successful", content = @Content(schema =  @Schema(implementation = String.class)))
     @ApiResponse(responseCode = "400", description = "Bad request")
     @ResponseStatus(HttpStatus.OK)
     public ResponseEntity<String> createWithdrawal(final @RequestBody WithdrawalDTO withdrawalDTO) {

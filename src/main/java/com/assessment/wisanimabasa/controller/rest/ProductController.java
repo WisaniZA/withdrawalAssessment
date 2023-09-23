@@ -49,6 +49,9 @@ public class ProductController {
      * @return the all product
      */
     @GetMapping
+    @Operation(summary = "Get product list", description = "Get product details by their unique productId")
+    @ApiResponse(responseCode = "200", description = "Successful", content = @Content(schema =  @Schema(implementation = ProductDTO.class)))
+    @ApiResponse(responseCode = "404", description = "Product not found")
     @ResponseStatus(HttpStatus.OK)
     public List<ProductDTO> getAllProduct() {
         return productService.getAllProducts();
