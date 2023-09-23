@@ -92,7 +92,20 @@
 	</dependencies>
 
 	<build>
+
 		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-pmd-plugin</artifactId>
+				<version>3.21.0</version>
+				<configuration>
+					<rulesets>
+						<ruleset>./pmd-rules.xml</ruleset>
+					</rulesets>
+					<failOnViolation>true</failOnViolation>
+					<printFailingErrors>true</printFailingErrors>
+				</configuration>
+			</plugin>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
