@@ -13,8 +13,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.persistence.Access;
-import javax.persistence.AccessType;
 import java.math.BigDecimal;
 import java.util.UUID;
 @Entity
@@ -22,7 +20,6 @@ import java.util.UUID;
 @Getter
 @NoArgsConstructor
 @IdClass(ProductId.class)
-@Access(AccessType.FIELD)
 public class Product {
     @Id
     @Column(columnDefinition = "uuid")
